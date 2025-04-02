@@ -12,6 +12,6 @@ public class WelcomeController {
     @GetMapping("/")
     public String welcome(Model model) {
         model.addAttribute("message", "Welcome to M brothers International Pvt");
-        return "welcome";
+        return "index";
     }
 }
